@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.canvas-container {
+  display: grid;
+  margin: 0 auto;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
