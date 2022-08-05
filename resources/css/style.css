@@ -7,13 +7,76 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-color: #2c3333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a5c9ca;
 }
 
 .canvas-container {
   display: grid;
-  margin: 0 auto;
   background-color: white;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: #a5c9ca;
+  padding: 2rem 3rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.size-label {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+}
+
+.grid-slider-container {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  box-shadow: -0.25rem 0.15rem 0.25rem;
+}
+
+.grid-slider-title {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.slider {
+  width: 150px;
+}
+
+.grid-on {
+  border: 1px solid #303030;
+}
+
+.btn {
+  width: 200px;
+  height: 75px;
+  background-color: lightcoral;
+}
+
+.color-picker {
+  width: 200px;
+  height: 75px;
 }
